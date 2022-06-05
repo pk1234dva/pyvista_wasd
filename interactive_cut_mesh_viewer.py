@@ -8,7 +8,7 @@ Plane can be lowered/raised using the l/p buttons.
 import keyboard  # pip install keyboard
 import numpy as np
 import pyvista
-from wasd_movement import WasdViewer
+from pyvista_wasd.wasd_movement import WasdViewer
 
 
 class CutMeshState:
